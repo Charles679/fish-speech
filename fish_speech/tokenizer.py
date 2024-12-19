@@ -140,7 +140,7 @@ class FishTokenizer:
 
 
 if __name__ == "__main__":
-    tokenizer = FishTokenizer("data/mpacks/v1.4-pretrain/tokenizer.all.tiktoken")
+    tokenizer = FishTokenizer("data/mpacks/v1.5-pretrain/tokenizer.all.tiktoken")
     tokenizer.save_pretrained("checkpoints/fish-speech-0.5B")
     tokenizer = FishTokenizer.from_pretrained("checkpoints/fish-speech-0.5B")
 
